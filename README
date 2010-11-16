@@ -1,1 +1,11 @@
 ef_messages provides function for displaying simple, informative, messages to the user which display and fade out. It is highly configurable.
+
+== How To Use It ==
+
+1) Require ef_message.lua in your main.lua file.
+
+2) Add ef_printMessages() to your love.draw function.
+
+3) Add messages to the queue using the following format:
+
+ ef_addMessage(text, xpos, ypos, direction)
