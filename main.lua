@@ -1,4 +1,4 @@
-require('xf_message.lua')
+require('ef_message.lua')
 
 ef_addMessage('Hello!',250, 250, 'up')
 
